@@ -7,6 +7,10 @@ int main(int argc, char* argv[]) {
     float v = sin(phase);
     mono(v * 0.707);
     phase += 2 * pi * frequency / SAMPLE_RATE;
+
+    
+
+
     if (phase > 2 * pi)  //
       phase -= 2 * pi;
   }

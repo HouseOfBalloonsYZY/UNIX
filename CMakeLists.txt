@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.1)
+cmake_minimum_required(VERSION 3.5)
 project(UNIX)
 
 set(CMAKE_CXX_STANDARD 14)
@@ -8,6 +8,10 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 add_executable(wav-write wav-write.cpp)
 add_executable(wav-read wav-read.cpp)
 add_executable(sine-sweep sine-sweep.cpp)
+add_executable(impluse impluse.cpp)
+add_executable(sawtooth sawtooth.cpp)
+add_executable(square square.cpp)
+add_executable(triangle triangle.cpp)
 
 ## Add lines here to make new executable targets
 #add_executable(impulse-sweep impulse-sweep.cpp)
